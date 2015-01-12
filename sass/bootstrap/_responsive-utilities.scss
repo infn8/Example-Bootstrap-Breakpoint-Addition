@@ -103,21 +103,40 @@
   }
 }
 
-@media (min-width: $screen-lg-min) {
+@media (min-width: $screen-lg-min) and (max-width: $screen-lg-max) {
   @include responsive-visibility('.visible-lg');
 }
 .visible-lg-block {
-  @media (min-width: $screen-lg-min) {
+  @media (min-width: $screen-lg-min) and (max-width: $screen-lg-max) {
     display: block !important;
   }
 }
 .visible-lg-inline {
-  @media (min-width: $screen-lg-min) {
+  @media (min-width: $screen-lg-min) and (max-width: $screen-lg-max) {
     display: inline !important;
   }
 }
 .visible-lg-inline-block {
-  @media (min-width: $screen-lg-min) {
+  @media (min-width: $screen-lg-min) and (max-width: $screen-lg-max) {
+    display: inline-block !important;
+  }
+}
+
+@media (min-width: $screen-xl-min) {
+  @include responsive-visibility('.visible-xl');
+}
+.visible-xl-block {
+  @media (min-width: $screen-xl-min) {
+    display: block !important;
+  }
+}
+.visible-xl-inline {
+  @media (min-width: $screen-xl-min) {
+    display: inline !important;
+  }
+}
+.visible-xl-inline-block {
+  @media (min-width: $screen-xl-min) {
     display: inline-block !important;
   }
 }
@@ -136,6 +155,10 @@
 
 @media (min-width: $screen-lg-min) {
   @include responsive-invisibility('.hidden-lg');
+}
+
+@media (min-width: $screen-xl-min) {
+  @include responsive-invisibility('.hidden-xl');
 }
 
 

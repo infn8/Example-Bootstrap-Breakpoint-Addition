@@ -8335,7 +8335,7 @@ button.close {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and (max-width: 1199px) {
   /* line 7, ../sass/bootstrap/mixins/_responsive-visibility.scss */
   .visible-lg {
     display: block !important;
@@ -8357,23 +8357,66 @@ button.close {
     display: table-cell !important;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and (max-width: 1199px) {
   /* line 109, ../sass/bootstrap/_responsive-utilities.scss */
   .visible-lg-block {
     display: block !important;
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and (max-width: 1199px) {
   /* line 114, ../sass/bootstrap/_responsive-utilities.scss */
   .visible-lg-inline {
     display: inline !important;
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and (max-width: 1199px) {
   /* line 119, ../sass/bootstrap/_responsive-utilities.scss */
   .visible-lg-inline-block {
+    display: inline-block !important;
+  }
+}
+
+@media (min-width: 1800px) {
+  /* line 7, ../sass/bootstrap/mixins/_responsive-visibility.scss */
+  .visible-xl {
+    display: block !important;
+  }
+
+  /* line 10, ../sass/bootstrap/mixins/_responsive-visibility.scss */
+  table.visible-xl {
+    display: table;
+  }
+
+  /* line 11, ../sass/bootstrap/mixins/_responsive-visibility.scss */
+  tr.visible-xl {
+    display: table-row !important;
+  }
+
+  /* line 12, ../sass/bootstrap/mixins/_responsive-visibility.scss */
+  th.visible-xl,
+  td.visible-xl {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 1800px) {
+  /* line 128, ../sass/bootstrap/_responsive-utilities.scss */
+  .visible-xl-block {
+    display: block !important;
+  }
+}
+
+@media (min-width: 1800px) {
+  /* line 133, ../sass/bootstrap/_responsive-utilities.scss */
+  .visible-xl-inline {
+    display: inline !important;
+  }
+}
+
+@media (min-width: 1800px) {
+  /* line 138, ../sass/bootstrap/_responsive-utilities.scss */
+  .visible-xl-inline-block {
     display: inline-block !important;
   }
 }
@@ -8399,6 +8442,12 @@ button.close {
 @media (min-width: 1200px) {
   /* line 18, ../sass/bootstrap/mixins/_responsive-visibility.scss */
   .hidden-lg {
+    display: none !important;
+  }
+}
+@media (min-width: 1800px) {
+  /* line 18, ../sass/bootstrap/mixins/_responsive-visibility.scss */
+  .hidden-xl {
     display: none !important;
   }
 }
@@ -8429,34 +8478,34 @@ button.close {
     display: table-cell !important;
   }
 }
-/* line 153, ../sass/bootstrap/_responsive-utilities.scss */
+/* line 176, ../sass/bootstrap/_responsive-utilities.scss */
 .visible-print-block {
   display: none !important;
 }
 @media print {
-  /* line 153, ../sass/bootstrap/_responsive-utilities.scss */
+  /* line 176, ../sass/bootstrap/_responsive-utilities.scss */
   .visible-print-block {
     display: block !important;
   }
 }
 
-/* line 160, ../sass/bootstrap/_responsive-utilities.scss */
+/* line 183, ../sass/bootstrap/_responsive-utilities.scss */
 .visible-print-inline {
   display: none !important;
 }
 @media print {
-  /* line 160, ../sass/bootstrap/_responsive-utilities.scss */
+  /* line 183, ../sass/bootstrap/_responsive-utilities.scss */
   .visible-print-inline {
     display: inline !important;
   }
 }
 
-/* line 167, ../sass/bootstrap/_responsive-utilities.scss */
+/* line 190, ../sass/bootstrap/_responsive-utilities.scss */
 .visible-print-inline-block {
   display: none !important;
 }
 @media print {
-  /* line 167, ../sass/bootstrap/_responsive-utilities.scss */
+  /* line 190, ../sass/bootstrap/_responsive-utilities.scss */
   .visible-print-inline-block {
     display: inline-block !important;
   }
